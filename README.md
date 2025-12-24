@@ -1,6 +1,6 @@
 **npm run dev -- --host**
 
-``yaml
+```yaml
 
 Note: Without --host
 Your app says:
