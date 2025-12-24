@@ -2,10 +2,10 @@
 name: Task -1 (Lint, Test & Deploy)
 
 on: 
-    push:
-        branches:
-            - main
-            - feature/*
+ push:
+  branches:
+     - main
+     - feature/*
 
 jobs:
   Lint_Test_Deploy:  
