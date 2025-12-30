@@ -1,0 +1,15 @@
+name: Task-2 Trigger on Issues and echo issue
+
+on: issues
+    
+
+jobs:
+  Output_Issues:
+    name: Task-2 Output issues
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Trigger on issues & echo issue message
+        run: |
+          echo '${{toJson(github.event)}}'
+
+#Note: go to repo and create a issue under issue tab"
